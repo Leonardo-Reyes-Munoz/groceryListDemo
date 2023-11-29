@@ -1,4 +1,5 @@
-import "./App.css";
+import './App.css';
+import GroceryList from './GroceryList';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h2>Grocery List</h2>
       <div className="card">
         <p>Put list here</p>
+        <GroceryList />
       </div>
     </>
   );
