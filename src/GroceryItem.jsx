@@ -15,9 +15,7 @@ function GroceryItem({ name, id, handleCheck, index }) {
         type="checkbox"
         id={id}
         checked={isChecked}
-        onChange={() => {
-          return handleChange(index);
-        }}
+        onChange={() => handleChange(index)}
       />
       <label
         htmlFor={id}
